@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #2196f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.form {
+    background-color: #FFF;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    justify-self: center;
+    align-self: center;
+    font-size: 36px;
+    margin: 10px auto;
+}
+
+form i {
+    color: #999;
+    margin-left: 30px;
+    margin-right: 8px;
+    display: inline-block;
+}
+form h2 {
+    font-size: 16px;
+    color: #999;
+    display: inline-block;
+}
+form input {
+    border-bottom: 1px solid #999;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    width: 338px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+form input:focus {
+    border-bottom: 1px solid rgb(73, 73, 73);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.Login-Btn {
+    width: 339px;
+    height: 40px;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.Login-Btn:hover {
+    background-color: #216bf3;
+}
+
+.form h3 {
+    font-size: 16px;
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+    margin: 20px 0;
+}
+.form h3 a {
+    text-decoration: none;
+    color: #2196f3;
+}
+
+.form span {
+    width: 339px;
+    justify-self: center;
+    align-self: center;
+    border-top-width: 2px;
+    border-top-color: #999;
+    border-top-style: dashed;
+    margin-bottom: 20px;
+}
+
+.form h4 {
+    justify-self: center;
+    align-self: center;
+    color: #999;
+    font-size: 20px;
+}
+
+.form .link {
+    display: flex;
+    justify-content: center;
+}
+.form .link a {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    margin-bottom: 20px;
+}
+.form .link a i {
+    font-size: 16px;
+}
+.form .link #facebook{
+    background-color: #3b5998;
+}
+.form .link #twitter{
+    background-color: #1da1f2;
+}
+.form .link #google {
+    background-color: #db4437;
+}
